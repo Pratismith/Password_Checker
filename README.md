@@ -21,7 +21,7 @@ Checks for common passwords, length, complexity, etc.
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/password-checker.git
+git clone https://github.com/Pratismith/Password_Checker.git
 cd password-checker
 🔹 Step 2: Set Up a Virtual Environment
 bash
