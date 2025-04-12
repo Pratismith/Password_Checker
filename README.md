@@ -18,27 +18,18 @@ REST API for password validation
 Checks for common passwords, length, complexity, etc.
 📥 Installation & Setup
 🔹 Step 1: Clone the Repository
-bash
-Copy
-Edit
 git clone https://github.com/Pratismith/Password_Checker.git
 cd password-checker
 🔹 Step 2: Set Up a Virtual Environment
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate   # On macOS/Linux
 venv\Scripts\activate      # On Windows
 🔹 Step 3: Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 🔹 Step 4: Run the Flask Backend
-bash
-Copy
-Edit
+
 python backend/app.py
 Your backend will run on http://127.0.0.1:5000 🚀
 
@@ -49,16 +40,13 @@ Simply open index.html in your browser.
 Method	Endpoint	Description
 POST	/check-password	Checks password strength & returns security details
 Example Request (JSON)
-json
-Copy
-Edit
+
+
 {
   "password": "Pr@tismith123"
 }
 Example Response
-json
-Copy
-Edit
+
 {
   "strength": "Strong",
   "message": "Great password! It's safe to use."
